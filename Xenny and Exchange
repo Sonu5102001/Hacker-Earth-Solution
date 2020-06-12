@@ -1,0 +1,11 @@
+import java.util.*;
+class TestClass {
+    public static void main(String args[] ) throws Exception {
+      Scanner s = new Scanner(System.in);
+
+      long X = s.nextLong();
+      long S = s.nextLong();
+
+      System.out.println(S+" "+X);
+    }
+}
